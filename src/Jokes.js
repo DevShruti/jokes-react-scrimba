@@ -3,6 +3,7 @@ export default function Jokes(props){
     <div>
             {props.setup && <h3>Setup: {props.setup}</h3>}
             <p>Punchline: {props.punchline}</p>
+            <p style={{display: props.isPun ? "block" : "none"}}>Is pun</p>
             <hr />
         </div>
    )}
