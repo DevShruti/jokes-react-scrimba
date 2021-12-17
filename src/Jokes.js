@@ -6,3 +6,5 @@ export default function Jokes(props){
             <hr />
         </div>
    )}
+
+   //  <h3 style={{display: props.setup ? "block" : "none"}}>Setup: {props.setup}</h3>
