@@ -6,6 +6,8 @@ function App() {
       <Jokes 
                 punchline="It’s hard to explain puns to kleptomaniacs because they always take things literally."
                 isPun={true}
+                upvotes={10}
+                downvotes={2}
                 
             />
             <Jokes 
