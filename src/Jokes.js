@@ -12,7 +12,7 @@ function toggle(){
             <p style={{display: props.isPun ? "block" : "none"}}>Is pun</p>
             {props.upvotes && <p> Upvotes: {props.upvotes}</p>}
             {props.downvotes && <p> Downvotes: {props.downvotes}</p>}
-            <button onClick={toggle}>Show Punchline!</button>
+            <button onClick={toggle}>{isShown ? "Hide" : "Show"} Punchline</button>
             <hr />
     </div>
    )}
